@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #D5DBDB;
+}
+
+#pagina{ 
+    width: 90%;
+    margin: 0px auto;
+    border: 1px solid;
+}
+
+header{
+    background: red;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+nav ul li{
+    float: left;
+    margin: 25px;
+    list-style: none;
+}
+
+#contenido{
+    width: 80%;
+}
+
+.articulo{
+    color:blue;
+    border-bottom: darkblue 1px solid;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.clearfix{
+    clear: both;
+}
